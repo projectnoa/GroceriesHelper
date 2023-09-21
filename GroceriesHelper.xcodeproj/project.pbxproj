@@ -7,9 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		200C4BCD2AB925EE00085F2F /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200C4BCC2AB925EE00085F2F /* Item.swift */; };
+		200C4BCF2AB926A400085F2F /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200C4BCE2AB926A400085F2F /* Location.swift */; };
+		200C4BD22AB9283100085F2F /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200C4BD12AB9283100085F2F /* NetworkManager.swift */; };
+		200C4BD52ABA739200085F2F /* ItemForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200C4BD42ABA739200085F2F /* ItemForm.swift */; };
 		20D615AF2AA515CE001C884E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20D615AE2AA515CE001C884E /* AppDelegate.swift */; };
 		20D615B12AA515CE001C884E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20D615B02AA515CE001C884E /* SceneDelegate.swift */; };
-		20D615B32AA515CE001C884E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20D615B22AA515CE001C884E /* ViewController.swift */; };
+		20D615B32AA515CE001C884E /* HomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20D615B22AA515CE001C884E /* HomeController.swift */; };
 		20D615B62AA515CE001C884E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20D615B42AA515CE001C884E /* Main.storyboard */; };
 		20D615B92AA515CE001C884E /* GroceriesHelper.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 20D615B72AA515CE001C884E /* GroceriesHelper.xcdatamodeld */; };
 		20D615BB2AA515CF001C884E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 20D615BA2AA515CF001C884E /* Assets.xcassets */; };
@@ -17,6 +21,17 @@
 		20D615C92AA515CF001C884E /* GroceriesHelperTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20D615C82AA515CF001C884E /* GroceriesHelperTests.swift */; };
 		20D615D32AA515CF001C884E /* GroceriesHelperUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20D615D22AA515CF001C884E /* GroceriesHelperUITests.swift */; };
 		20D615D52AA515CF001C884E /* GroceriesHelperUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20D615D42AA515CF001C884E /* GroceriesHelperUITestsLaunchTests.swift */; };
+		20D615E22AA51A29001C884E /* SettingsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20D615E12AA51A29001C884E /* SettingsController.swift */; };
+		20D615E62AA51D4A001C884E /* DishCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20D615E42AA51D4A001C884E /* DishCollectionViewCell.swift */; };
+		20D615E72AA51D4A001C884E /* DishCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 20D615E52AA51D4A001C884E /* DishCollectionViewCell.xib */; };
+		20D615EB2AA52D7E001C884E /* DishCollectionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20D615EA2AA52D7E001C884E /* DishCollectionController.swift */; };
+		20D615EE2AA53059001C884E /* IngredientTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20D615EC2AA53059001C884E /* IngredientTableViewCell.swift */; };
+		20D615EF2AA53059001C884E /* IngredientTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 20D615ED2AA53059001C884E /* IngredientTableViewCell.xib */; };
+		20D615F22AA63BCA001C884E /* Ingredient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20D615F12AA63BCA001C884E /* Ingredient.swift */; };
+		20D615F42AA63BD8001C884E /* Dish.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20D615F32AA63BD8001C884E /* Dish.swift */; };
+		20EAD88E2ABBA9EF00B96232 /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20EAD88D2ABBA9EF00B96232 /* ImagePicker.swift */; };
+		20EAD8902ABBAA3E00B96232 /* PickableImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20EAD88F2ABBAA3E00B96232 /* PickableImageView.swift */; };
+		20EAD8932ABBAA9900B96232 /* ImageExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20EAD8922ABBAA9900B96232 /* ImageExtensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,10 +52,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		200C4BCC2AB925EE00085F2F /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		200C4BCE2AB926A400085F2F /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
+		200C4BD12AB9283100085F2F /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		200C4BD42ABA739200085F2F /* ItemForm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemForm.swift; sourceTree = "<group>"; };
 		20D615AB2AA515CE001C884E /* GroceriesHelper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GroceriesHelper.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		20D615AE2AA515CE001C884E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		20D615B02AA515CE001C884E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		20D615B22AA515CE001C884E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		20D615B22AA515CE001C884E /* HomeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeController.swift; sourceTree = "<group>"; };
 		20D615B52AA515CE001C884E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		20D615B82AA515CE001C884E /* GroceriesHelper.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = GroceriesHelper.xcdatamodel; sourceTree = "<group>"; };
 		20D615BA2AA515CF001C884E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -51,6 +70,17 @@
 		20D615CE2AA515CF001C884E /* GroceriesHelperUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GroceriesHelperUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		20D615D22AA515CF001C884E /* GroceriesHelperUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroceriesHelperUITests.swift; sourceTree = "<group>"; };
 		20D615D42AA515CF001C884E /* GroceriesHelperUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroceriesHelperUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		20D615E12AA51A29001C884E /* SettingsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsController.swift; sourceTree = "<group>"; };
+		20D615E42AA51D4A001C884E /* DishCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DishCollectionViewCell.swift; sourceTree = "<group>"; };
+		20D615E52AA51D4A001C884E /* DishCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DishCollectionViewCell.xib; sourceTree = "<group>"; };
+		20D615EA2AA52D7E001C884E /* DishCollectionController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DishCollectionController.swift; sourceTree = "<group>"; };
+		20D615EC2AA53059001C884E /* IngredientTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IngredientTableViewCell.swift; sourceTree = "<group>"; };
+		20D615ED2AA53059001C884E /* IngredientTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = IngredientTableViewCell.xib; sourceTree = "<group>"; };
+		20D615F12AA63BCA001C884E /* Ingredient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ingredient.swift; sourceTree = "<group>"; };
+		20D615F32AA63BD8001C884E /* Dish.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dish.swift; sourceTree = "<group>"; };
+		20EAD88D2ABBA9EF00B96232 /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
+		20EAD88F2ABBAA3E00B96232 /* PickableImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickableImageView.swift; sourceTree = "<group>"; };
+		20EAD8922ABBAA9900B96232 /* ImageExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageExtensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +108,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		200C4BD02AB927E200085F2F /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				200C4BD12AB9283100085F2F /* NetworkManager.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		200C4BD32ABA736100085F2F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				200C4BD42ABA739200085F2F /* ItemForm.swift */,
+				20EAD88D2ABBA9EF00B96232 /* ImagePicker.swift */,
+				20EAD88F2ABBAA3E00B96232 /* PickableImageView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		20D615A22AA515CE001C884E = {
 			isa = PBXGroup;
 			children = (
@@ -101,12 +149,19 @@
 		20D615AD2AA515CE001C884E /* GroceriesHelper */ = {
 			isa = PBXGroup;
 			children = (
+				20EAD8912ABBAA7F00B96232 /* Extensions */,
+				200C4BD32ABA736100085F2F /* Views */,
+				200C4BD02AB927E200085F2F /* Controllers */,
+				20D615F02AA63BB5001C884E /* Models */,
+				20D615E32AA51D00001C884E /* Helpers */,
 				20D615AE2AA515CE001C884E /* AppDelegate.swift */,
 				20D615B02AA515CE001C884E /* SceneDelegate.swift */,
-				20D615B22AA515CE001C884E /* ViewController.swift */,
+				20D615B22AA515CE001C884E /* HomeController.swift */,
+				20D615EA2AA52D7E001C884E /* DishCollectionController.swift */,
+				20D615E12AA51A29001C884E /* SettingsController.swift */,
 				20D615B42AA515CE001C884E /* Main.storyboard */,
-				20D615BA2AA515CF001C884E /* Assets.xcassets */,
 				20D615BC2AA515CF001C884E /* LaunchScreen.storyboard */,
+				20D615BA2AA515CF001C884E /* Assets.xcassets */,
 				20D615BF2AA515CF001C884E /* Info.plist */,
 				20D615B72AA515CE001C884E /* GroceriesHelper.xcdatamodeld */,
 			);
@@ -128,6 +183,36 @@
 				20D615D42AA515CF001C884E /* GroceriesHelperUITestsLaunchTests.swift */,
 			);
 			path = GroceriesHelperUITests;
+			sourceTree = "<group>";
+		};
+		20D615E32AA51D00001C884E /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				20D615E42AA51D4A001C884E /* DishCollectionViewCell.swift */,
+				20D615E52AA51D4A001C884E /* DishCollectionViewCell.xib */,
+				20D615EC2AA53059001C884E /* IngredientTableViewCell.swift */,
+				20D615ED2AA53059001C884E /* IngredientTableViewCell.xib */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		20D615F02AA63BB5001C884E /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				20D615F12AA63BCA001C884E /* Ingredient.swift */,
+				20D615F32AA63BD8001C884E /* Dish.swift */,
+				200C4BCC2AB925EE00085F2F /* Item.swift */,
+				200C4BCE2AB926A400085F2F /* Location.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		20EAD8912ABBAA7F00B96232 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				20EAD8922ABBAA9900B96232 /* ImageExtensions.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -234,8 +319,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				20D615EF2AA53059001C884E /* IngredientTableViewCell.xib in Resources */,
 				20D615BE2AA515CF001C884E /* LaunchScreen.storyboard in Resources */,
 				20D615BB2AA515CF001C884E /* Assets.xcassets in Resources */,
+				20D615E72AA51D4A001C884E /* DishCollectionViewCell.xib in Resources */,
 				20D615B62AA515CE001C884E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -261,9 +348,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				20D615B32AA515CE001C884E /* ViewController.swift in Sources */,
+				20D615B32AA515CE001C884E /* HomeController.swift in Sources */,
+				200C4BCD2AB925EE00085F2F /* Item.swift in Sources */,
+				20D615F42AA63BD8001C884E /* Dish.swift in Sources */,
+				200C4BD22AB9283100085F2F /* NetworkManager.swift in Sources */,
+				20D615E22AA51A29001C884E /* SettingsController.swift in Sources */,
+				20D615F22AA63BCA001C884E /* Ingredient.swift in Sources */,
 				20D615AF2AA515CE001C884E /* AppDelegate.swift in Sources */,
+				20EAD8902ABBAA3E00B96232 /* PickableImageView.swift in Sources */,
 				20D615B12AA515CE001C884E /* SceneDelegate.swift in Sources */,
+				20D615EE2AA53059001C884E /* IngredientTableViewCell.swift in Sources */,
+				20D615E62AA51D4A001C884E /* DishCollectionViewCell.swift in Sources */,
+				20EAD8932ABBAA9900B96232 /* ImageExtensions.swift in Sources */,
+				200C4BD52ABA739200085F2F /* ItemForm.swift in Sources */,
+				20D615EB2AA52D7E001C884E /* DishCollectionController.swift in Sources */,
+				20EAD88E2ABBA9EF00B96232 /* ImagePicker.swift in Sources */,
+				200C4BCF2AB926A400085F2F /* Location.swift in Sources */,
 				20D615B92AA515CE001C884E /* GroceriesHelper.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -444,6 +544,8 @@
 				DEVELOPMENT_TEAM = TL76QL278K;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = GroceriesHelper/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Please give access to the camera to add photos to ingredients.";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Please give access to the photo library to add photos to ingredients.";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -472,6 +574,8 @@
 				DEVELOPMENT_TEAM = TL76QL278K;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = GroceriesHelper/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Please give access to the camera to add photos to ingredients.";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Please give access to the photo library to add photos to ingredients.";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
